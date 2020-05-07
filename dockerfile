@@ -3,4 +3,4 @@ MAINTAINER AYUSH MISHRA
 RUN mkdir /usr/src/cal_app
 COPY target/Calculator-1.0-SNAPSHOT.jar /usr/src/cal_app
 WORKDIR /usr/src/cal_app
-CMD ["java","-cp","Calculator-1.0-SNAPSHOT.jar","MainCalc"]
+CMD ["java","-cp","Calculator-1.0-SNAPSHOT.jar","Calculator"]
