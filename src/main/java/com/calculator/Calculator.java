@@ -3,7 +3,7 @@ package com.calculator;
 public class Calculator {
 
 	public static void main(String[] args){
-		System.out.println("100c+ 50 = " + add(100, 50));
+		System.out.println("100+ 50 = " + add(100, 50));
 		System.out.println("100 - 50 = " + subtract(100,50));
 // 		System.out.println("100 * 50 = " + multiply(100,50));
 // 		System.out.println("100 / 50 = " + divide(100,50));
